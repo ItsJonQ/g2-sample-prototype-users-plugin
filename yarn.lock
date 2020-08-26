@@ -1826,46 +1826,32 @@
   dependencies:
     "@babel/runtime" "^7.8.3"
 
-"@wp-g2/a11y@0.0.49":
+"@wp-g2/a11y@0.0.49", "@wp-g2/a11y@^0.0.49":
   version "0.0.49"
   resolved "https://registry.yarnpkg.com/@wp-g2/a11y/-/a11y-0.0.49.tgz#7e62890217a4305f35be4eb96bf183693e3b3d1e"
   integrity sha512-3ouVgJZyRNsuf4crY8zAri955T8bnvxGoMlo+h9q9UI/vuxVoLofH2r8RYk/HgCJe6BHuv3FMgbJVXxNEWVkvg==
   dependencies:
     reakit "^1.1.2"
 
-"@wp-g2/a11y@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/a11y/-/a11y-0.0.48.tgz#09ede26ece1badbd3d5a14f66fd3f183cff82583"
-  integrity sha512-/KDerVvMopnTRxn5kXEvzRFLD4mA1d+hVynB5WyjAWvTwd0i9urKibTs+6wuSYn5BZ1PJOqWqQnvXwv7dB0plQ==
-  dependencies:
-    reakit "^1.1.2"
-
-"@wp-g2/animations@0.0.49":
+"@wp-g2/animations@0.0.49", "@wp-g2/animations@^0.0.49":
   version "0.0.49"
   resolved "https://registry.yarnpkg.com/@wp-g2/animations/-/animations-0.0.49.tgz#219232a337172484687f8d5a7df44cb4aebd781a"
   integrity sha512-eRV5fD1NUD9jO84aAb3wpYjmGpnJEVWYVAXjcQOILPLN1GqkBxB0TmXN8K8dwGKUonGi+Dw6BAsjad4niLNmZQ==
   dependencies:
     framer-motion "^2.1.0"
 
-"@wp-g2/animations@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/animations/-/animations-0.0.48.tgz#9127dbd4c9bd1908f49d5840ddb917557933a4bd"
-  integrity sha512-QJi54xUd7fZ7ULHOf2QcrvS0LJ/+O6kwQtHg1XsdaRv2VhXBhvyg4u8wOVztBfsCE1S/W6mK/ihy3X5Jd8RjVw==
-  dependencies:
-    framer-motion "^2.1.0"
-
-"@wp-g2/components@0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/components/-/components-0.0.48.tgz#57a012e9d57fa18af4f5553c27552961098aecf2"
-  integrity sha512-Yd0jRmoxYXDkFpl1m2XandIgQZ5zGT/2/utBW7TpnJziZ41f8kl3+ZqREQd4wdxDfZe/gsIbwuw86nsCq6iDtw==
+"@wp-g2/components@0.0.49", "@wp-g2/components@^0.0.49":
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/@wp-g2/components/-/components-0.0.49.tgz#847bf52b74a896f291250df1a266e3382d0a2655"
+  integrity sha512-cCoCU21nw2ZIxVXHmJZDkEosfldau9bsWCvds3HJgM31S2pW8hHRJzxTFNt98w3tcCr/4TlV6WGgugangoausg==
   dependencies:
     "@humanmade/react-slot-fill" "^0.0.4"
-    "@wp-g2/a11y" "^0.0.48"
-    "@wp-g2/animations" "^0.0.48"
-    "@wp-g2/context" "^0.0.48"
-    "@wp-g2/icons" "^0.0.48"
-    "@wp-g2/styles" "^0.0.48"
-    "@wp-g2/utils" "^0.0.48"
+    "@wp-g2/a11y" "^0.0.49"
+    "@wp-g2/animations" "^0.0.49"
+    "@wp-g2/context" "^0.0.49"
+    "@wp-g2/icons" "^0.0.49"
+    "@wp-g2/styles" "^0.0.49"
+    "@wp-g2/utils" "^0.0.49"
     history "^4.9.0"
     path-to-regexp "^1.7.0"
     react-color "^2.18.1"
@@ -1876,29 +1862,42 @@
     react-textarea-autosize "^8.2.0"
     zustand "^2.2.3"
 
-"@wp-g2/context@0.0.48", "@wp-g2/context@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/context/-/context-0.0.48.tgz#cc7966903588334bf6cc9ebd8f6f93baee675f35"
-  integrity sha512-0n09nJlc3TQm0bmWjEAhXWylx3ZhjqMV9DtEJVq/Srmh9suQJkr3ERaACB/3C7mhR2kuq4KwsSfsKT9p9I4N/A==
+"@wp-g2/context@0.0.49", "@wp-g2/context@^0.0.49":
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/@wp-g2/context/-/context-0.0.49.tgz#57d4f9eec0525222c5586086c0e6c8728df21167"
+  integrity sha512-dVifOYllocNQdcyQIj2+lmR4/KSZHVIuRK2GC1dJI13jymmH5umSTTTErY/mYR2Cb1zRU+Ne4Pu1WE4UBkRmUQ==
   dependencies:
-    "@wp-g2/styles" "^0.0.48"
-    "@wp-g2/utils" "^0.0.48"
+    "@wp-g2/styles" "^0.0.49"
+    "@wp-g2/utils" "^0.0.49"
 
-"@wp-g2/icons@0.0.49":
+"@wp-g2/hint@0.0.49":
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/@wp-g2/hint/-/hint-0.0.49.tgz#13ff171405e93967340ad8fc85d900713a31d931"
+  integrity sha512-FJ39f9ss/+EA+gItjd1PzNjTfAGuO7iAzoMboOhawuJhusMX7T5P8zBut/RvortkpRjFqvATNwPnDGyatX5AcQ==
+  dependencies:
+    "@wp-g2/components" "^0.0.49"
+    "@wp-g2/icons" "^0.0.49"
+    "@wp-g2/styles" "^0.0.49"
+    "@wp-g2/utils" "^0.0.49"
+
+"@wp-g2/icons@0.0.49", "@wp-g2/icons@^0.0.49":
   version "0.0.49"
   resolved "https://registry.yarnpkg.com/@wp-g2/icons/-/icons-0.0.49.tgz#f3b5b3589c509900ae504b676499d037d93b70b2"
   integrity sha512-sx4dlj/bc4QP/2GoMQnT4XYWQYVgsbO3pyu4laznw1ziv1rKg533Pv+Fm148qSrpRCt1eZFQyOS2lRBMqhH4ZA==
   dependencies:
     react-icons "^3.10.0"
 
-"@wp-g2/icons@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/icons/-/icons-0.0.48.tgz#3dc0522c4cb27d55bf9328adc8e3ea5504f2c184"
-  integrity sha512-+sWwgXnBJp8kVJEcpA73Jvb4XJsTKyp9tCxe5vsSHDJdrzA3o9iwPNO1pG3qOE73lvkFVjUZJcqfBqEuBHfHtQ==
+"@wp-g2/protokit@0.0.49":
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/@wp-g2/protokit/-/protokit-0.0.49.tgz#967d4aae879a9fc2fbb801ac9d4209f2943952f7"
+  integrity sha512-EIGvEpAbSNmdFcOdLfnLJenmb8cVCoOl0enyH3+0BBfcJcXf4LpPsH8YMI5J8X+/04Ms46jb8LBTdGRqMofaSA==
   dependencies:
-    react-icons "^3.10.0"
+    "@wp-g2/utils" "^0.0.49"
+    faker "^4.1.0"
+    faker-schema "^1.0.2"
+    fuse.js "^6.4.1"
 
-"@wp-g2/styles@0.0.49":
+"@wp-g2/styles@0.0.49", "@wp-g2/styles@^0.0.49":
   version "0.0.49"
   resolved "https://registry.yarnpkg.com/@wp-g2/styles/-/styles-0.0.49.tgz#2216437fb6abfc063ece97acec2c665ee2b780a4"
   integrity sha512-Tv6BiUlDcu7yxVg9cmiJEODm5mASZ52aJblaWGWNa5UHXzf1q4Fn+H5qtgKMNRnep2TB4r29KlTEiIFRM0pEjw==
@@ -1915,53 +1914,10 @@
     stylis-plugin-css-variables "^1.0.4"
     stylis-plugin-rtl "^1.0.0"
 
-"@wp-g2/styles@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/styles/-/styles-0.0.48.tgz#08ded346f69bd28214fb054e4f4dc16806c4a39d"
-  integrity sha512-KCpJR2LJQ58n7LnQM5bgRtpIVvxzX2TX1Fk2UkfRexMp1P8f4x8k2LJoEBMCwuM7FA/p4kLhvrP/fniOHrdydQ==
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/is-prop-valid" "^0.8.8"
-    "@wp-g2/utils" "^0.0.48"
-    create-emotion "^10.0.27"
-    cssjanus "^1.3.2"
-    dash-get "^1.0.2"
-    emotion "^10.0.27"
-    emotion-theming "^10.0.27"
-    styled-griddie "^0.1.3"
-    stylis-plugin-css-variables "^1.0.4"
-    stylis-plugin-rtl "^1.0.0"
-
 "@wp-g2/utils@0.0.49", "@wp-g2/utils@^0.0.49":
   version "0.0.49"
   resolved "https://registry.yarnpkg.com/@wp-g2/utils/-/utils-0.0.49.tgz#0c64b9d02d0f7273647861ca9a5de9342f3ac5c5"
   integrity sha512-xiB+Q4pAgoXVtm47lx8V67yHMsGUrw8htBWkT2/FC62EtoEW70fp28N8XfcQqWfvD3MsUTTzUHu+Y/gET+FOcg==
-  dependencies:
-    "@itsjonq/is" "^0.0.5"
-    array-move "^3.0.0"
-    copy-to-clipboard "^3.3.1"
-    deepmerge "^4.2.2"
-    fast-deep-equal "^3.1.3"
-    hoist-non-react-statics "^3.3.2"
-    json2mq "^0.2.0"
-    lodash.capitalize "^4.2.1"
-    lodash.chunk "^4.2.0"
-    lodash.clamp "^4.0.3"
-    lodash.kebabcase "^4.1.1"
-    lodash.uniq "^4.5.0"
-    lodash.upperfirst "^4.3.1"
-    memize "^1.1.0"
-    react-merge-refs "^1.0.0"
-    react-resize-aware "^3.0.1"
-    reakit-warning "^0.4.1"
-    tinycolor2 "^1.4.1"
-    use-enhanced-state "^0.0.9"
-    zustand "^3.0.0"
-
-"@wp-g2/utils@^0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@wp-g2/utils/-/utils-0.0.48.tgz#ed058de5a962f7abf4bad8078fc2d9c296fddc20"
-  integrity sha512-daL8GpmmQWZQ6IXNeAiiuYY7ZN77L0anh8SxkSOQGbLpE4ebpBYKDAiAc3rmKT/m9o9UNjOUtZgz896J4QpbgQ==
   dependencies:
     "@itsjonq/is" "^0.0.5"
     array-move "^3.0.0"
@@ -4603,6 +4559,16 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+faker-schema@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/faker-schema/-/faker-schema-1.0.2.tgz#9694264bb551f82a945cb9e6a041c16c1c5c0273"
+  integrity sha512-vbMB4aROqyJSafLktQH0LRs3j5At6eG6DSXpgA5MlesDiY1I/8uXcJFr75Qyk3Yx3UuNn0BwBaeRrYtJH/4qeg==
+
+faker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
+  integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
+
 fast-deep-equal@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
@@ -4980,6 +4946,11 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+fuse.js@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.4.1.tgz#76f1b4ab9cd021b854a68381b35628033d27507e"
+  integrity sha512-+hAS7KYgLXontDh/vqffs7wIBw0ceb9Sx8ywZQhOsiQGcSO5zInGhttWOUYQYlvV/yYMJOacQ129Xs3mP3+oZQ==
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
