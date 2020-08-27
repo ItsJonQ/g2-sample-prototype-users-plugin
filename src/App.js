@@ -170,7 +170,7 @@ function App() {
 		schema: userSchema,
 	});
 	const [currentUser, setCurrentUser] = useState();
-	const dialog = useDialogState();
+	const dialog = useDialogState({ animated: true });
 
 	return (
 		<Container width={800}>
